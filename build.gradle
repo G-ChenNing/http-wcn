@@ -11,8 +11,8 @@ apply plugin: 'io.spring.dependency-management'
 //name = 'http-wcn'
 group = 'com.github.g-chenning'
 //version = '0.0.1-SNAPSHOT'
-version = '0.0.1-RELEASE'
-sourceCompatibility = '1.8'
+version = '0.0.2-RELEASE'
+sourceCompatibility = '12'
 
 repositories {
     mavenCentral()
@@ -115,11 +115,11 @@ signing {
     sign publishing.publications.mavenJava
 }
 
-
 javadoc {
-    if(JavaVersion.current().isJava9Compatible()) {
-        options.addBooleanOption('html4', true)
-    }
+    //.isJava9Compatible()
+//    if(JavaVersion.current().java12Compatible) {
+//        options.addBooleanOption('html4', true)
+//    }
     // <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     // 防止本地打开中文乱码
     options.addStringOption("charset", "UTF-8")

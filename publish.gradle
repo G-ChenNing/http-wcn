@@ -1,0 +1,8 @@
+//ext.'signing.keyId' = 'DCF4CD10C5DBF5FA52AE957A1D381FA1F4166913'
+ext.'signing.keyId' = 'F4166913'
+ext.'signing.password' = 'wcnwcn175'
+//ext.'signing.secretKeyRingFile' = '‪C:\\Users\\Musk\\secret.gpg'
+ext.'signing.secretKeyRingFile' = rootDir.canonicalPath + '/.gradle/secret.gpg'
+
+ext.'sonatypeUsername'='wcngoodlight'
+ext.'sonatypePassword'='Wangchenning175_'
